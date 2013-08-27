@@ -1,0 +1,994 @@
+body {
+	background-color: #E8EFF7;
+}
+
+.Gnome #darken {
+	height: 100%;
+	width: 100%;
+	background: #000;
+	position: absolute;
+	top: 0;
+	display: none;
+	left: 0;
+}
+
+.Gnome #modalbox {
+	position: absolute;
+	display: none;
+}
+
+.Gnome #modalcontent {
+	position: relative;
+	padding: 15px;
+}
+
+.Gnome #modalClose {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.Gnome {
+	width: 800px;
+	height: 600px;
+	padding: 30px;
+	border: 1px solid;
+	text-align: center;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #F7F9FB;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Gnome .csstgheader {
+	border: 1px solid black;
+	width: 740px;
+	height: 83px;
+	position: relative;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.Gnome #cssregisterselectcontainer {
+	height: 416px;
+	width: 740px;
+	border: 1px solid black;
+	position: relative;
+	top: 40px;
+}
+
+.Gnome #cssregisterselectcontainer .cssregisterclick {
+	width: 60px;
+	height: 60px;
+	background-color: transparent;
+	position: absolute;
+	top: 265px;
+	cursor: pointer;
+}
+
+.Gnome #cssregisterselectcontainer #cssregisterclassinfo {
+	bottom: 20px;
+	height: 50px;
+	left: 50px;
+	position: absolute;
+	text-align: left;
+	width: 650px;
+}
+
+.Gnome #cssregisterselectcontainer .cssregisterclick#cssregisterclick0 {
+	left: 205px;
+}
+
+.Gnome #cssregisterselectcontainer .cssregisterclick#cssregisterclick1 {
+	left: 435px;
+}
+
+.Gnome #cssregisterselectcontainer .cssregisterclick#cssregisterclick2 {
+	left: 670px;
+}
+
+.Gnome #cssregisterselectcontainer .regdiv,.Gnome #cssregisterselectcontainer #regdiv0,.Gnome #cssregisterselectcontainer #regdiv1,.Gnome #cssregisterselectcontainer #regdiv2
+	{
+	height: 313px;
+	width: 225px;
+}
+
+.Gnome #cssregisterselectcontainer #regdiv0 {
+	left: 40px;
+	position: absolute;
+	top: 9px;
+}
+
+.Gnome #cssregisterselectcontainer #regdiv1 {
+	left: 269px;
+	position: absolute;
+	top: 12px;
+}
+
+.Gnome #cssregisterselectcontainer #regdiv2 {
+	left: 504px;
+	position: absolute;
+	top: 13px;
+}
+
+.Gnome .regdivconfirm {
+	width: 475px;
+	height: 325px;
+	float: right;
+	background: white;
+}
+
+.Gnome .contcssregisterclick {
+	display: none;
+}
+
+.Gnome .contcontcssregisterclick {
+	width: 397px;
+	height: 240px;
+	position: relative;
+}
+
+.Gnome #cssregisterselectcontainer .regdiv .tgclassinfotable {
+	padding-top: 125px;
+	padding-left: 25px;
+	text-align: left;
+	cursor: pointer;
+}
+
+.Gnome .contcontcssregisterclick .submit {
+	background-color: transparent;
+	cursor: pointer;
+	height: 105px;
+	left: 290px;
+	position: absolute;
+	top: 130px;
+	width: 100px;
+}
+
+.Gnome .contcontcssregisterclick INPUT {
+	background: none repeat scroll 0 0 transparent;
+	border: medium none;
+	left: 60px;
+	position: absolute;
+	top: 90px;
+	width: 205px;
+}
+
+.Gnome .csstgsidebardiv {
+	background-color: white;
+	width: 740px;
+	height: 90px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+}
+
+.Gnome .csstgsidebardiv .csstguserinfo {
+	float: left;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.Gnome .csstgsidebardiv .csstguserinfo span {
+	float: left;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 2px;
+}
+
+.Gnome .csstgsidebardiv .csstgskill {
+	float: left;
+	width: 50px;
+	margin-top: 5px;
+}
+
+.Gnome .csstgsidebardiv .csstgskill img {
+	width: 20px;
+}
+
+.Gnome .csstgsidebardiv .csstgskill span {
+	display: inline;
+	margin-left: 5px;
+	vertical-align: bottom;
+}
+
+.Gnome .csstgsidebardiv .csstgshortinfo {
+	width: 130px;
+	height: 70px;
+	font-size: 14px;
+}
+
+.Gnome .csstgsidebardiv .csstgshortinfo .csstgletters {
+	width: 35px;
+	height: 25px;
+	background-position: left top;
+	background-repeat: no-repeat;
+	float: left;
+	display: block;
+	padding-left: 30px;
+	line-height: 22px;
+}
+
+.Gnome .csstgsidebardiv .csstgshortinfo .csstgdiamonds {
+	width: 35px;
+	height: 25px;
+	background-position: left top;
+	background-repeat: no-repeat;
+	float: left;
+	display: block;
+	padding-left: 30px;
+	line-height: 22px;
+}
+
+.Gnome .csstgsidebardiv .csstgshortinfo .csstggold {
+	width: 85px;
+	height: 30px;
+	background-position: left top;
+	background-repeat: no-repeat;
+	float: left;
+	display: block;
+	padding-left: 45px;
+	line-height: 29px;
+}
+
+.csstgprogress {
+	position: relative;
+}
+
+.csstgprogress .csstgouterprogress {
+	width: 126px;
+	height: 14px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.csstgprogress .csstginnerprogress {
+	margin-left: 0px;
+	width: 126px;
+	height: 16px;
+	text-align: center;
+	vertical-align: middle;
+	background-position: right top;
+}
+
+.csstgprogress .csstgprogressframe {
+	position: absolute;
+	width: 126px;
+	top: 0px;
+	height: 15px;
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 5px;
+}
+
+.csstgprogress .csstgprogressframe.pf1 {
+	
+}
+
+.csstgprogress .csstgprogressframe.pf2 {
+	
+}
+
+.csstgprogress .csstgprogressframe.pf3 {
+	
+}
+
+/*Ende info header*/
+
+/*Anfang Tabbar*/
+.Gnome .csstgtabbuttondiv {
+	background-color: #EFEFEF;
+	border-style: solid;
+	border-width: 1px 1px 0;
+	cursor: pointer;
+	font-size: 12px;
+	height: 15px;
+	margin-right: 5px;
+	width: 80px;
+}
+
+.Gnome .csstgtabbuttondiv.csstgactive {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+/*Ende Tabbar*/
+/*Start ContentContainer*/
+.Gnome DIV.csstgcontent {
+	width: 740px;
+	height: 380px;
+	overflow: hidden;
+	text-align: left;
+	position: relative;
+	background-color: #FFFFFF;
+	border: 1px solid black;
+}
+
+.Gnome .csstginventwindow {
+	width: 750px;
+	height: 250px;
+	position: relative;
+	top: 20px;
+	text-align: left;
+}
+
+.Gnome .csstgimagebutton42 {
+	width: 42px;
+	height: 42px;
+	float: left;
+	margin-right: 10px;
+	border: 1px solid;
+	cursor: pointer;
+}
+
+.Gnome .csstgimagebutton42 IMG {
+	z-index: 999;
+	height: 40px;
+	width: 40px;
+}
+
+.Gnome .csstgmenu {
+	height: 42px;
+	float: left;
+	margin-right: 10px;
+	border: 1px solid;
+	cursor: pointer;
+}
+
+.Gnome .csstgmenu.csstgmenusearch {
+	border: none;
+	cursor: default;
+	float: right;
+	margin-right: 25px;
+}
+
+/*Ende ContentContainer*/
+/*Start StartDiamond*/
+.Gnome .csstgdiamonds {
+	position: relative;
+	width: 60px;
+	height: 60px;
+}
+
+.Gnome .csstgdiamonds#csstgdiamond0 {
+	left: 90px;
+	top: 130px;
+}
+
+.Gnome .csstgdiamonds#csstgdiamond1 {
+	left: 90px;
+	top: -20px;
+}
+
+.Gnome .csstgdiamonds#csstgdiamond2 {
+	left: 185px;
+	top: -20px;
+}
+
+.Gnome .csstgdiamonds#csstgdiamond3 {
+	left: 0px;
+	top: -80px;
+}
+
+.Gnome .csstgdiamonds#csstgdiamond4 {
+	left: 140px;
+	top: -30px;
+}
+
+.Gnome .csstgdiamonds#csstgdiamond5 {
+	left: 40px;
+	top: -90px;
+}
+
+.Gnome .csstginventbag {
+	float: left;
+	margin-right: 5px;
+}
+
+.Gnome .csstginventdelete {
+	float: right;
+	margin-left: 5px;
+}
+
+.Gnome #csstgdragboxhelper {
+	border: 1px solid black;
+	border-bottom-width: 0px;
+	width: 220px;
+	height: 25px;
+}
+
+.Gnome .csstginventitem .csstgitemimg {
+	
+}
+
+.Gnome #csstgdragbox {
+	border: 1px solid black;
+	width: 220px;
+	height: 300px;
+	clear: both;
+	position: relative;
+	top: -3px;
+}
+
+.Gnome .csstgbag {
+	display: none;
+}
+
+.Gnome .csstgbag.csstgactive {
+	display: block;
+}
+
+.Gnome #csstgdragbox .draggable {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.Gnome .draggable {
+	width: 60px;
+	height: 60px;
+	float: left;
+	cursor: move;
+}
+
+.Gnome .droppable {
+	background-color: red;
+}
+
+.Gnome .csstginventitem.csstgitemimg {
+	height: 60px;
+	width: 60px;
+}
+
+/*Ende StartDiamond*/
+.Gnome .skilltable {
+	margin: 20px 0 0 120px;
+}
+
+.Gnome .skillframe {
+	margin-top: 20px;
+}
+
+.Gnome .skillframe  DIV {
+	float: left;
+	width: 250px;
+	height: 40px;
+	vertical-align: middle;
+}
+
+.Gnome .skillframe .img {
+	margin-left: 20px;
+	width: 40px;
+}
+
+.Gnome .skillframe .left {
+	width: 25px;
+	height: 40px;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+.Gnome .skillframe .left.inactive,.Gnome .skillframe .left.inactive:hover
+	{
+	
+}
+
+.Gnome .skillframe DIV.left:hover {
+	background-position: center;
+	width: 25px;
+	height: 40px;
+}
+
+.Gnome .skillframe .right {
+	width: 25px;
+	height: 40px;
+	background-position: center;
+	background-repeat: no-repeat;;
+	cursor: pointer;
+}
+
+.Gnome .skillframe .right.inactive,.Gnome .skillframe .right.inactive:hover
+	{
+	
+}
+
+.Gnome .skillframe DIV.right:hover {
+	
+}
+
+.Gnome .skillframe .inactive {
+	opacity: 0.3;
+	filter: alpha(opacity =   30);
+	cursor: default;
+}
+
+.Gnome .skillframe .cnt {
+	width: 25px;
+	height: 40px;
+	margin-left: 30px;
+	margin-right: 30px;
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 14px;
+}
+
+.Gnome #tgfreeskillpoints {
+	font-weight: bold;
+	margin-right: 30px;
+    margin-top: 25px;
+}
+
+.Gnome .csstguserinfo .upgrade {
+	color: #CCA01B;
+	cursor: pointer;
+}
+
+.Gnome .tgfriendlist {
+	margin-top: 30px;
+}
+
+.Gnome .tgfriendlist .tgsearchfor {
+	position: absolute;
+	top: -10px;
+	width: 500px;
+}
+
+.Gnome .tgfriendlist .tgsearchfor span {
+	font-style: italic;
+}
+
+.Gnome .tgfriendcancel {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.Gnome .tgfriendsend {
+	position: absolute;
+	bottom: 10px;
+	right: 185px;
+}
+
+.Gnome .tgfriendlist .tgfriend {
+	width: 470px;
+	height: 22px;
+	padding-left: 30px;
+	padding-top: 6px;
+}
+
+.Gnome .tgfriendlist .tgfriend .tgfriendmenu {
+	float: right;
+	height: 16px;
+	width: 16px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.Gnome .tgfriendlist .tgfriend .tgfriendmenu.tgmremove {
+	margin-right: 12px;
+}
+
+.Gnome .tgfriendlist .tgfriend .tgfriendmenu.tgmchat {
+	
+}
+
+.Gnome .tgfriendlist .tgfriend .tgfriendmenu.tgmfight {
+	
+}
+
+.Gnome .tgfriendlist .tgfriend .tgfriendmenu.tgmaddfriend {
+	
+}
+
+.Gnome .tgfriendlist .tgfriend.tgfriend1 {
+	
+}
+
+.Gnome .tgfriendlist .tgfriend.tgfriend2 {
+	
+}
+
+.Gnome .tgfriendlist .tgfriend.tgfriend3 {
+	
+}
+
+.Gnome .tgfriendlist .tgfriend span.tgname {
+	font-weight: bold;
+}
+
+.Gnome .tgfriendlist .tgfriend.tgmessage {
+	cursor: pointer;
+}
+
+.Gnome .tgsearch {
+	width: 250px;
+	height: 35px;
+}
+
+.Gnome .tgsearch INPUT {
+	border: none;
+	background: transparent;
+	margin-left: 10px;
+	margin-top: 7px;
+	width: 190px;
+}
+
+.Gnome .tgsearch DIV {
+	width: 35px;
+	height: 35px;
+	float: right;
+	cursor: pointer;
+}
+
+.Gnome .tgsubinventar {
+	width: 135px;
+	height: 185px;
+	border: 1px solid black;
+	padding-left: 5px;
+	float: left;
+}
+
+.Gnome .tginactivesubintar {
+	opacity: 0.5;
+	filter: alpha(opacity =  50);
+}
+
+.Gnome .tgsubinventar .inventitem {
+	width: 40px;
+	height: 40px;
+	list-style-type: none;
+	float: left;
+	margin: 5px 5px 0 0;
+}
+
+.Gnome .tgsortableinventarhelper {
+	width: 140px;
+	height: 25px;
+	border: 1px solid black;
+	border-bottom-width: 0px;
+	margin-top: 50px;
+}
+
+.Gnome .tgtbuybag {
+	width: 140px;
+	height: 210px;
+	position: relative;
+	top: -25px;
+}
+
+.Gnome .tgtbuybag .bg {
+	background-color: white;
+	opacity: 0.3;
+	filter: alpha(opacity =  30);
+	width: 140px;
+	height: 210px;
+}
+
+.Gnome .tgtbuybag .buy {
+	width: 120px;
+	position: absolute;
+	top: 110px;
+	left: 10px;
+	cursor: pointer;
+}
+
+.Gnome .tgtbuybag .buytext {
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	text-align: center;
+	top: 75px;
+	width: 100%;
+	left: 20px;
+}
+
+.Gnome .tgfightcont {
+	width: 740px;
+	height: 580px;
+	position: absolute;
+	z-index: 100;
+}
+
+.Gnome .tgfightframe {
+	width: 740px;
+	height: 610px;
+}
+
+.Gnome .tgfightframe #tggnom {
+	width: 220px;
+	height: 300px;
+	position: absolute;
+	z-index: 99;
+	left: 120px;
+	top: 20px;
+}
+
+.Gnome .tgfightframe #tgenemy {
+	width: 220px;
+	height: 300px;
+	position: absolute;
+	z-index: 99;
+	left: 350px;
+	top: 20px;
+}
+
+.Gnome .csstgmenu.tgsendmessage {
+	border: none;
+}
+
+.Gnome .tgreadmessage {
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.Gnome .tgsendmessage textarea {
+	height: 200px;
+	width: 520px;
+	border: 1px solid black;
+}
+
+.Gnome .tgsendmessage input {
+	width: 450px;
+	border: 1px solid black;
+	margin-bottom: 10px;
+}
+
+.Gnome .tgfriendsend img,.Gnome .tgfriendcancel img {
+	cursor: pointer;
+}
+
+.Gnome .tgfriendlist.tgmessagelist {
+	height: 280px;
+	overflow-y: scroll;
+	width: 530px;
+}
+
+.Gnome .regdivconfirm .tgentername {
+	float: left;
+	left: 30px;
+	position: relative;
+	top: 30px;
+}
+
+.Gnome .regdivconfirm .tgentername span {
+	margin-right: 5px;
+}
+
+.Gnome .regdivconfirm .tgclassinfotable {
+	float: left;
+	left: 60px;
+	position: relative;
+	top: 60px;
+}
+
+.Gnome .regdivconfirm .tgclassinfobuttons {
+	float: left;
+	left: 50px;
+	position: relative;
+	top: 60px;
+}
+
+.Gnome #cssregisterselectcontainer.regconfirmcontainer #regdiv0,.Gnome #cssregisterselectcontainer.regconfirmcontainer #regdiv1,.Gnome #cssregisterselectcontainer.regconfirmcontainer #regdiv2
+	{
+	left: 40px;
+	position: absolute;
+	top: 10px;
+}
+
+.Gnome .jobsbackground {
+	height: 380px;
+    margin-left: -10px;
+    margin-top: -30px;
+    width: 740px;
+    position: relative;
+}
+
+.Gnome .jobsbackground .jobsliderout {
+	background-color: white;
+	position: absolute;
+    overflow: hidden;
+}
+
+.Gnome .jobsbackground .jobsliderout#backen {
+	left:30px;
+	top:245px;
+	height: 130px;
+	width: 40px;
+}
+
+.Gnome .jobsbackground .jobsliderout#zuechten {
+	left:280px;
+	top:140px;
+	height: 85px;
+	width: 110px;
+}
+
+.Gnome .jobsbackground .jobsliderout#kochen {
+	height: 130px;
+    left: 660px;
+    top: 135px;
+    width: 50px;
+}
+
+.Gnome .jobsbackground .jobsliderout#brauen {
+	left:415px;
+	top:9px;
+	height: 100px;
+	width: 80px;
+}
+
+.Gnome .jobsbackground .jobsliderout .jobsliderin {
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+	margin-top:50%;
+}
+
+.Gnome .jobsforeground {
+	height: 380px;
+    margin-left: -10px;
+    margin-top: -30px;
+    width: 740px;
+    position: relative;
+    top: -350px;
+}
+
+.Gnome .mapforeground {
+	height: 380px;
+    margin-left: -10px;
+    margin-top: -30px;
+    width: 740px;
+}
+
+
+.Gnome .csstgheader {
+	background-image: url('../images/global/banner.png');
+}
+
+.Gnome .csstgprogress .csstgprogressframe.pf1 {
+	background-image: url('../images/global/bar/bar1_trans.png');
+}
+
+.Gnome .csstgprogress .csstgprogressframe.pf2 {
+	background-image: url('../images/global/bar/bar2_trans.png');
+}
+
+.Gnome .csstgprogress .csstgprogressframe.pf3 {
+	background-image: url('../images/global/bar/bar3_trans.png');
+}
+
+.Gnome .csstgsidebardiv .csstgshortinfo .csstgletters {
+	background-image: url('../images/global/mini/letter.png');
+}
+
+.Gnome .csstgsidebardiv .csstgshortinfo .csstgdiamonds {
+	background-image: url('../images/global/mini/diamond.png');
+}
+
+.Gnome .csstgsidebardiv .csstgshortinfo .csstggold {
+	background-image: url('../images/global/money.png');
+}
+
+.csstgprogress .csstginnerprogress {
+	background-image: url('../images/global/bar/bar0.png');
+}
+
+.Gnome .csstgdiamonds {
+	background-image: url('../images/global/frame.png');
+}
+
+.Gnome .csstgdiamonds#csstgdiamond0 {
+	background-image: url('../images/global/diamond.png');
+}
+
+.Gnome .tgsearch {
+	background-image: url('../images/global/search.png');
+}
+
+.Gnome .tgfriendlist .tgfriend.tgfriend0 {
+	background-image: url('../images/char/fl0.png');
+}
+
+.Gnome .tgfriendlist .tgfriend.tgfriend1 {
+	background-image: url('../images/char/fl1.png');
+}
+
+.Gnome .tgfriendlist .tgfriend.tgfriend2 {
+	background-image: url('../images/char/fl2.png');
+}
+
+.Gnome .tgfriendlist .tgfriend .tgfriendmenu.tgremove {
+	background-image: url('../images/global/mini/delete.png');
+}
+
+.Gnome .tgfriendlist .tgfriend .tgfriendmenu.tgchat {
+	background-image: url('../images/global/mini/chat.png');
+}
+
+.Gnome .tgfriendlist .tgfriend .tgfriendmenu.tgfight {
+	background-image: url('../images/global/mini/fight.png');
+}
+
+.Gnome .tgfightcont {
+	background-image: url('../images/global/fightbg.png');
+}
+
+.Gnome .tgfightframe #tggnom {
+	background-image: url('../images/char/0.png');
+}
+
+.Gnome .tgfightframe #tgenemy {
+	background-image: url('../images/monster/m001.png');
+}
+
+.Gnome #cssregisterselectcontainer {
+	background-image: url('../images/global/registerselect.png');
+}
+
+.Gnome .contcontcssregisterclick {
+	background-image: url('../images/global/username.png');
+}
+
+.Gnome #cssregisterselectcontainer #regdiv0 .regdiv {
+	background-image: url('../images/char/reg0.png');
+}
+
+.Gnome #cssregisterselectcontainer #regdiv1 .regdiv {
+	background-image: url('../images/char/reg1.png');
+}
+
+.Gnome #cssregisterselectcontainer #regdiv2 .regdiv {
+	background-image: url('../images/char/reg2.png');
+}
+
+.Gnome #cssregisterselectcontainer.regconfirmcontainer #regdiv0 .regdiv
+	{
+	background-image: url('../images/char/regconfirm0.png');
+}
+
+.Gnome #cssregisterselectcontainer.regconfirmcontainer #regdiv1 .regdiv
+	{
+	background-image: url('../images/char/regconfirm1.png');
+}
+
+.Gnome #cssregisterselectcontainer.regconfirmcontainer #regdiv2 .regdiv
+	{
+	background-image: url('../images/char/regconfirm2.png');
+}
+
+.Gnome .skillframe .left
+	{
+	background-image: url('../images/skill/l.png');
+}
+
+.Gnome .skillframe .right
+	{
+	background-image: url('../images/skill/r.png');
+}
+
+.Gnome .skillframe .left:hover
+	{
+	background-image: url('../images/skill/lo.png');
+}
+
+.Gnome .skillframe .right:hover
+	{
+	background-image: url('../images/skill/ro.png');
+}
+
+.Gnome .jobsforeground {
+	background-image: url('../images/global/job/job.png');
+}
+
+.Gnome .mapforeground {
+	background-image: url('../images/global/map_foreground.png');
+}
